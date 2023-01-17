@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.ato{
+    box-sizing: border-box;
+    display: flex-box;
+    border: 40px;
+    border-color: red;
+    width: 45em;
+    height: 20rem;
+    
+    position: absolute;
+    right: 20px;
+
+}
+picture{
+    box-sizing: border-box;
+    
+    display: flex-box;
+    position:absolute;
+    left: 20px;
+}
