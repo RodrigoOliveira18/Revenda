@@ -2,3 +2,37 @@ body{
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.secao-topo p{
+
+    padding: 20px;
+    font-size:22px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.secao-largura-limitada{
+    width: 100%;
+    max-width: 800px;
+    margin: 0  auto;
+}
+
+h1,h2{
+    color: #FFF;
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.secao-background-capa{
+    min-height: 500px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+}
+
+.secao-background-conteudo{
+    text-align: right;
+    padding: 50px 20px;
+    background: #00000085;
+}
