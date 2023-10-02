@@ -65,7 +65,7 @@
             <h3>Análise de Cadastro</h3>
             <p>Preencha os campos abaixo e analisaremos seus dados.<br> Se tudo estiver correto ligaremos para marca um test drive e uma visita em nossas lojas</p>
 
-            <form method="post" action="####"></form>
+            <form method="post" action="####">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <div class="grupo-campo">
@@ -96,8 +96,44 @@
                         <input type="date" name="validade" required>
                     </div>                    
                 </fieldset>
+
+                <fieldset>
+
+                    <legend>Carros</legend>
+                    <div class="grupo-campo">
+                        <label> Modelos de Carros</label>
+                        <select name="carro" required>
+                            <option value="">Escolha um Carro</option>
+                            <optgroup label="Volkswagem">
+                                <option value="gol">Gol</option>
+                                <option value="golf">Golf</option>
+                                <option value="Fox">Fox</option>
+                            </optgroup>
+
+                            <optgroup label="Fiat">
+                                <option value="Uno">Uno</option>
+                                <option value="Siena">Siena</option>
+                                <option value="Palio">Palio</option>
+                            </optgroup>
+
+                            <optgroup label="Nissan">
+                                <option value="Frontier">Frontier</option>
+                                <option value="Versa">Versa</option>
+                                <option value="Skyline">Skyline</option>
+                            </optgroup>
+                        </select>
+
+                    </div>
+                </fieldset>
+                <button type="submit"> Enviar dados</button>
+            </form>
         </section>
     </main>
+
+
+    <footer>
+        <p>Copyright 2023- Revenda de Carros Ltda.</p>
+    </footer>
 
 
 <script src="simulacap.js">
