@@ -16,6 +16,15 @@ body{
     margin: 0  auto;
 }
 
+
+.simulacao{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
 h1,h2{
     color: #FFF;
     margin: 0;
@@ -36,3 +45,102 @@ h3{
     padding: 50px 20px;
     background: #00000085;
 }
+
+.secao-conteudo{
+    padding: 50px 20px;
+    box-sizing: border-box;
+    display: flex-box;
+    
+    
+}
+.img-conteudo{
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.secao-conteudo span{
+    border-left:1px solid ;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.secao-background-divisao{
+
+    padding: 50px 0;
+    text-align: center;
+    background-color: #d92121;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-background-divisao h3{
+    font-size: 30px;
+    background-color: #c60000;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.grupo-campo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grupo-campo input, .grupo-campo select{
+    margin: 12px 0;
+    height: 25px;
+}
+
+.secao-conteudo fieldset{
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.secao-conteudo button{
+
+    width: 100px;
+    height: 32px;
+    background: #d92121;
+    border: none;
+    color: #FFF;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f8f8f8;
+}
+
+
+footer p{
+    color: #d92121;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+@media(max-width:815px)
+{
+    .img-conteudo{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
